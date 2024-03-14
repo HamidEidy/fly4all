@@ -81,9 +81,7 @@
           <!-- first row -->
           <div class="container mb-3">
             <div class="row justify-content-around align-items-center">
-              <div
-                class="col-2 d-flex align-items-center gap-2 firstfilter"
-              >
+              <div class="col-2 d-flex align-items-center gap-2 firstfilter">
                 <input
                   type="radio"
                   name="radio"
@@ -92,16 +90,12 @@
                 />
                 <span class="home-text fw-bold">One-Way</span>
               </div>
-              <div
-                class="col-2 d-flex align-items-center gap-2 firstfilter"
-              >
+              <div class="col-2 d-flex align-items-center gap-2 firstfilter">
                 <input type="radio" name="radio" class="home-radiobutton1" />
                 <span class="home-text fw-bold">Round-Trip</span>
               </div>
 
-              <div
-                class="col-2 d-flex align-items-center gap-2 firstfilter"
-              >
+              <div class="col-2 d-flex align-items-center gap-2 firstfilter">
                 <input type="radio" name="radio" class="home-radiobutton1" />
                 <span class="home-text fw-bold">Multi-destination</span>
               </div>
@@ -127,28 +121,24 @@
               <input
                 type="text"
                 placeholder="To"
-                class="home-textinput1 input "
+                class="home-textinput1 input"
               />
-              <div class="home-textinput2 input datepic col-12 col-md-3">
-
-
-  
-              
-
-
-                <VueDatePicker
-                  input-class-name="dp-custom-input"
-                  hide-input-icon
-                  auto-apply
-                  class="col-md-3 col-12 picker"
-                  :enable-time-picker="false"
-                  style="--dp-font-family: 'Inter',
+              <ClientOnly>
+                <div class="home-textinput2 input datepic col-12 col-md-3">
+                  <VueDatePicker
+                    input-class-name="dp-custom-input"
+                    hide-input-icon
+                    auto-apply
+                    class="col-md-3 col-12 picker"
+                    :enable-time-picker="false"
+                    style="--dp-font-family: 'Inter',
               --dp-border: 'none',
               --dp-button-icon-height: 50px,
               "
-                  v-model="picked"
-                />
-              </div>
+                    v-model="picked"
+                  />
+                </div>
+              </ClientOnly>
 
               <input
                 type="text"

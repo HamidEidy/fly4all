@@ -34,7 +34,7 @@ border: none !important;
   border-radius: var(--dl-radius-radius-radius4);
   background-size: cover;
   justify-content: center;
-  background-image: url("public/external/tab1-200h.jpg");
+  background-image: url("/external/tab1-200h.jpg");
   filter:  grayscale(100%);
 height: 50px;
 border-top-left-radius: 30px !important;
@@ -216,7 +216,7 @@ padding-bottom: 30px;
 .slider-four .slider-four-image {
   width: 105%;
   height: 90%;
-  background-image: url("../public/sliderImg/slide-1.jpg");
+  background-image: url("/sliderImg/slide-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -288,7 +288,7 @@ padding-bottom: 30px;
   animation: slider-two 12s linear infinite;
 }
 .slider-two .slider-two-image {
-  background-image: url("../public/sliderImg/slide-2.jpg");
+  background-image: url("/sliderImg/slide-2.jpg");
 }
 .slider-two .slider-two-image .slider-text {
   animation-delay: 3s;
@@ -298,7 +298,7 @@ padding-bottom: 30px;
   animation: slider-three 12s linear infinite;
 }
 .slider-three .slider-three-image {
-  background-image: url("../public/sliderImg/slide-3.jpg");
+  background-image: url("/sliderImg/slide-3.jpg");
 }
 .slider-three .slider-three-image .slider-text {
   animation-delay: 6s;
@@ -308,7 +308,7 @@ padding-bottom: 30px;
   animation: slider-four 12s linear infinite;
 }
 .slider-four .slider-four-image {
-  background-image: url("../public/sliderImg/slide-4.jpg");
+  background-image: url("/sliderImg/slide-4.jpg");
 }
 /* .slider-four .slider-four-image .slider-text {
  
@@ -342,7 +342,7 @@ padding-bottom: 30px;
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-    .home-container006 {
+    // .home-container006 {
       // top: -91px;
       // left: 0px;
       // width: 190px;
@@ -361,7 +361,7 @@ padding-bottom: 30px;
       // border-top-right-radius: 0;
       // border-bottom-left-radius: 0;
       // border-bottom-right-radius: 0;
-      .home-text {
+      // .home-text {
         // color: rgb(255, 255, 255);
         // font-size: 24px;
         // align-self: center;
@@ -369,8 +369,8 @@ padding-bottom: 30px;
         // text-align: center;
         // font-weight: 700;
         // text-transform: uppercase;
-      }
-    }
+      // }
+    // }
     // .home-container007 {
     //   top: -91px;
     //   flex: 0 0 auto;
